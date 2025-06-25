@@ -1,3 +1,4 @@
+CREATE DATABASE library_db;
 USE library_db;
 -- 1. Create Authors Table
 CREATE TABLE authors (
