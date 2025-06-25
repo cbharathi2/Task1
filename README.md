@@ -12,20 +12,20 @@ The goal of this task is to design a well-structured relational database by:
 - Establishing entity relationships
 - Generating an Entity-Relationship (ER) Diagram
 
-### 🛠️ Tools Used
+🛠️ Tools Used
 - [MySQL Workbench]
 - - SQL (MySQL Syntax)
 - Git & GitHub for version control
 
 ---
 
-## 🧠 Domain: Library Management System
+Domain: Library Management System
 
 A Library Management System keeps track of books, members, staff, and book loans.
 
 ---
 
-## 🔍 Step-by-Step Breakdown
+Step-by-Step Breakdown
 
 ### 1. **Entities Identified**
 - **Authors**
@@ -63,6 +63,10 @@ CREATE TABLE loans (
 member_id in loans is a foreign key.
 
 It must match a value in members.member_id
+
+ER DIAGRAM:
+![er](https://github.com/user-attachments/assets/7294592a-2919-4e9f-abc5-ec7f45417342)
+
 
 
 
